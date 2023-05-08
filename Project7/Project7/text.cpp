@@ -29,9 +29,7 @@ Text::Text(SDL_Renderer* ren, const char* write, TTF_Font* font, int xp, int yp)
 
 
 }
-void Text::Render() {
-	SDL_RenderCopy(renderer, texture, &srcRect, &destRect);
-}
+
 void Text::Update(TTF_Font* font) {
 	SDL_Color color = { 0, 0, 0 };
 	const char* textu = writeText;

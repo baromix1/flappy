@@ -1,1 +1,3 @@
-﻿  Project7.vcxproj -> C:\Users\login\Documents\GitHub\4ef0a52c-gr42-repo\Projekt\Project7\x64\Debug\Project7.exe
+﻿  game.cpp
+C:\Users\login\Documents\GitHub\4ef0a52c-gr42-repo\Projekt\Project7\Project7\game.cpp(82,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Project7.vcxproj -> C:\Users\login\Documents\GitHub\4ef0a52c-gr42-repo\Projekt\Project7\x64\Debug\Project7.exe

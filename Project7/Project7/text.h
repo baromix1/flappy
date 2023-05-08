@@ -12,6 +12,5 @@ public:
 	
 	char* writeText=NULL;
 	Text( SDL_Renderer* ren, const char* textu, TTF_Font* font,int xpos,int ypos);
-	void Render();
 	void Update(TTF_Font* font);
 };

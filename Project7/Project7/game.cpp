@@ -78,7 +78,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height)
 	score2->destRect.w = 30;
 	
 
-	score->Update(font);
+	
 	srand(time(NULL));
 }
 
@@ -88,12 +88,7 @@ void Game::init(const char* title, int xpos, int ypos, int width, int height)
 
 void Game::update()
 {
-
-	
-	
-	
 	int  random = rand() % 10;
-	
 	birdd->Update(); 
 	pipedown1->Update(random);
 	pipedown2->Update(random);
@@ -101,8 +96,6 @@ void Game::update()
 	pipeup1->Update(random);
 	pipeup2->Update(random);
 	pipeup3->Update(random);
-	
-
 }
 char* intToStr(int data) {
 	std::string strData = std::to_string(data);
@@ -171,10 +164,7 @@ void Game::events()
 	if (birdd->destRect.x+64 > pipeup3->destRect.x && birdd->destRect.x + 64 < pipeup3->destRect.x + 140 && birdd->destRect.y < pipeup3->destRect.y+400) { isRunning = false; } 
 }
 
-void Game::pipes() {
-	
 
-}
 void Game::render()
 {
 	SDL_RenderClear(renderer);
