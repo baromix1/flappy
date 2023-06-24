@@ -137,11 +137,13 @@
   <ItemGroup>
     <ClCompile Include="background.cpp" />
     <ClCompile Include="bird.cpp" />
+    <ClCompile Include="globals.ixx" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="pipedown.cpp" />
     <ClCompile Include="pipeup.cpp" />
+    <ClCompile Include="score.cpp" />
     <ClCompile Include="text.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +153,7 @@
     <ClInclude Include="Object.h" />
     <ClInclude Include="pipedown.h" />
     <ClInclude Include="pipeup.h" />
+    <ClInclude Include="score.h" />
     <ClInclude Include="text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

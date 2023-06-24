@@ -17,7 +17,7 @@ Text::Text(SDL_Renderer* ren, const char* write, TTF_Font* font, int xp, int yp)
 	renderer = ren;
 	texture = SDL_CreateTextureFromSurface(ren, textSur);
 	SDL_FreeSurface(textSur);
-	srcRect.w = 150;
+	srcRect.w = 1000;
 	srcRect.h = 100;
 	srcRect.x = 0;
 	srcRect.y = 0;
